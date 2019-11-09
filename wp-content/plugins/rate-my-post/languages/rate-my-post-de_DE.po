@@ -1,0 +1,499 @@
+# Translation of Plugins - Rate my Post &#8211; WP Post Rating - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Rate my Post &#8211; WP Post Rating - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-13 13:48+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Rate my Post &#8211; WP Post Rating - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: admin/partials/rate-my-post-menu-options.php:317
+msgid "Advanced Settings"
+msgstr "Erweiterte Einstellungen"
+
+#: admin/partials/rate-my-post-menu-options.php:335
+msgid "Multilingual website compatibility mode"
+msgstr "Mehrsprachige Website (Kompatibilitäts-Modus)"
+
+#: public/inc/class-rate-my-post-public-helper.php:176
+msgid "Vote count:"
+msgstr "Anzahl Bewertungen:"
+
+#: public/inc/class-rate-my-post-public-helper.php:192
+msgid "Please insert your feedback in the box above!"
+msgstr "Bitte schreibe deine Meinung in das obige Feld!"
+
+#: admin/partials/rate-my-post-menu-options.php:253
+msgid "Encourage users to follow you on social media. Insert links to your social media profiles below. The social widget will be shown in case of a positive rating"
+msgstr "Weise deine Leser auf deine Social-Media-Accounts hin! Hier unten kannst du Links zu deinen Profilen einfügen. Das Social-Widget wird nur bei positiven Bewertungen angezeigt"
+
+#: admin/partials/rate-my-post-menu-options.php:143
+msgid "When user hovers over a star, a descriptive rating will be showed under the stars"
+msgstr "Wenn Benutzer die Maus auf einen Stern bewegen, wird die Bewertung unter den Sternen angezeigt"
+
+#: admin/partials/rate-my-post-menu-customize.php:130
+msgid "Replace the generic vote count and average rating text under the stars. Use {{votecount}} for number of votes and {{avgrating}} for average rating. Leave empty for default. This feature does not work in the multilingual website compatibility mode."
+msgstr "Ersetze den allgemeinen Text für die Bewertungsanzahl und die Durchschnittsbewertung (unter den Sternen). Benutze {{votecount}} für die Anzahl der Bewertungen und {{avgrating}} für die Anzeige der Durchschnittsbewertung. Diese Einstellung funktioniert nicht im Mehrsprachen-Kompatibilitätsmodus."
+
+#: admin/partials/rate-my-post-menu-customize.php:127
+msgid "Custom results text"
+msgstr "Benutzerdefinierter Ergebnistext"
+
+#: admin/partials/rate-my-post-menu-options.php:127
+msgid "Enable half stars"
+msgstr "Halbe Sterne anzeigen"
+
+#: admin/partials/rate-my-post-menu-options.php:151
+msgid "Do not recalculate after vote"
+msgstr "Keine Neuberechnung nach der Bewertung"
+
+#: admin/partials/rate-my-post-menu-options.php:154
+msgid "Disable recalculating average rating and vote count for visitors after vote"
+msgstr "Deaktiviert die automatische Neuberechnung der Durchschnittsbewertung und des Bewertungszählers direkt nach der Bewertung"
+
+#: admin/partials/rate-my-post-menu-alerts.php:19
+msgid "You need to be logged in as administrator to save settings for Rate my Post plugin"
+msgstr "Du musst als Administrator angemeldet sein, um die Einstellungen für Rate my Post speichern zu können"
+
+#: admin/partials/rate-my-post-menu-options.php:76
+msgid "Automatically adds result widget to all your pages, before the content. Results widget will be displayed only if page has already been rated. You can also manually add the result widget with shortcode: [ratemypost-result]"
+msgstr "Fügt automatisch vor dem Seiteninhalt das Ergebnis-Widget in alle Seiten ein. Das Widget wird nur angezeigt, wenn die Seite schon bewertet wurde. Du kannst das Widget auch manuell mit dem Shortcode [ratemypost-result] einfügen."
+
+#: admin/partials/rate-my-post-menu-options.php:65
+msgid "Automatically adds result widget to all your posts, before the content. Results widget will be displayed only if post has already been rated. You can also manually add the result widget with shortcode: [ratemypost-result]"
+msgstr "Fügt automatisch vor dem Beitragsinhalt das Ergebnis-Widget in alle Beiträge ein. Das Widget wird nur angezeigt, wenn der Beitrag schon bewertet wurde. Du kannst das Widget auch manuell mit dem Shortcode [ratemypost-result] einfügen."
+
+#: admin/partials/rate-my-post-menu-customize.php:309
+msgid "Style - Rating Widget"
+msgstr "Stil - Bewertungs-Widget"
+
+#: admin/partials/rate-my-post-menu-customize.php:318
+msgid "Icon Size"
+msgstr "Icon-Größe"
+
+#: admin/partials/rate-my-post-menu-customize.php:326
+msgid "Results Color"
+msgstr "Farbe der Ergebnisse"
+
+#: admin/partials/rate-my-post-menu-options.php:18
+msgid "Rating Widget Settings"
+msgstr "Bewertungs-Widget Einstellungen"
+
+#: admin/partials/rate-my-post-menu-options.php:21
+msgid "Type of rating widget"
+msgstr "Art des Bewertungs-Widgets"
+
+#: admin/partials/rate-my-post-menu-options.php:38
+msgid "Add rating widget to all posts"
+msgstr "Bewertungs-Widget zu allen Beiträgen hinzufügen"
+
+#: admin/partials/rate-my-post-menu-options.php:49
+msgid "Add rating widget to all pages"
+msgstr "Bewertungs-Widget zu allen Seiten hinzufügen"
+
+#: admin/partials/rate-my-post-menu-options.php:62
+msgid "Add result widget to all posts"
+msgstr "Ergebnis-Widget zu allen Beiträgen hinzufügen"
+
+#: admin/partials/rate-my-post-menu-options.php:73
+msgid "Add result widget to all pages"
+msgstr "Ergebnis-Widget zu allen Seiten hinzufügen"
+
+#: admin/partials/rate-my-post-menu-options.php:86
+msgid "Send me email whenever post gets rated"
+msgstr "Schicke mir eine E-Mail, sobald ein Beitrag bewertet wurde"
+
+#: admin/partials/rate-my-post-menu-options.php:116
+msgid "Color the stars in rating widget"
+msgstr "Sterne im Bewertungs-Widget einfärben"
+
+#: admin/partials/rate-my-post-menu-options.php:119
+msgid "For example, if a post has an average rating of 4, 4 stars in rating widget will be colored"
+msgstr "Wenn z.B. ein Beitrag mit durchschnittlich 4 Sternen bewertet wurde, werden 4 Sterne im Widget eingefärbt"
+
+#: admin/partials/rate-my-post-menu-options.php:167
+msgid "Removes average rating and vote count information under the rating widget"
+msgstr "Entfernt die Durchschnittsbewertung und die Bewertungsanzahl unter dem Bewertungs-Widget"
+
+#: admin/partials/rate-my-post-menu-options.php:201
+msgid "If post or page is rated X/5 stars or less, consider rating negative. X="
+msgstr "Wenn die Seite / der Beitrag X oder weniger Sterne erhalten hat, wird die Bewertung als negativ angesehen. X="
+
+#: admin/partials/rate-my-post-menu-options.php:212
+msgid "Feedback Widget Settings"
+msgstr "Feedback-Widget Einstellungen"
+
+#: admin/partials/rate-my-post-menu-options.php:219
+msgid "Show feedback widget if rating is negative"
+msgstr "Feedback-Widget anzeigen bei negativer Bewertung"
+
+#: admin/partials/rate-my-post-menu-options.php:243
+msgid "Social Widget Settings"
+msgstr "Social-Widget Einstellungen"
+
+#: admin/partials/rate-my-post-menu-options.php:250
+msgid "Show social widget if rating is positive"
+msgstr "Zeige das Social-Widget bei positiver Bewertung"
+
+#: admin/partials/rate-my-post-menu-options.php:175
+msgid "Delete cookie on page load"
+msgstr "Cookie beim Laden der Seite löschen"
+
+#: admin/partials/rate-my-post-menu-options.php:164
+msgid "Do not show average rating"
+msgstr "Keine Durchschnittsbewertung anzeigen"
+
+#: admin/partials/rate-my-post-menu-options.php:52
+msgid "Automatically adds rating widget to all your pages, after the content. You can also manually add the rating widget with shortcode: [ratemypost]"
+msgstr "Fügt automatisch das Bewertungs-Widget direkt hinter dem Seiteninhalt in alle Seiten ein. Du kannst das Widget auch manuell mit dem Shortcode [ratemypost] einfügen."
+
+#: admin/partials/rate-my-post-menu-options.php:41
+msgid "Automatically adds rating widget to all your posts, after the content. You can also manually add the rating widget with shortcode: [ratemypost]"
+msgstr "Fügt automatisch das Bewertungs-Widget direkt hinter dem Beitragsinhalt in alle Beiträge ein. Du kannst das Widget auch manuell mit dem Shortcode [ratemypost] einfügen."
+
+#: admin/partials/rate-my-post-menu-customize.php:228
+msgid "Style - Global"
+msgstr "Stil - Global"
+
+#: admin/partials/rate-my-post-menu-options.php:205
+msgid "Define what is a negative rating to use the feedback and social widget."
+msgstr "Lege fest, ab wann eine Bewertung negativ ist (für das Feedback-und Social-Widget)"
+
+#: admin/partials/rate-my-post-menu-about.php:15
+msgid "About Plugin"
+msgstr "Über dieses Plugin"
+
+#: admin/partials/rate-my-post-menu-about.php:19
+msgid "Hi there"
+msgstr "Hi"
+
+#: admin/partials/rate-my-post-menu-about.php:22
+msgid "here"
+msgstr "hier"
+
+#: admin/partials/rate-my-post-menu-about.php:28
+msgid "Best regards"
+msgstr "Viele Grüße"
+
+#: admin/partials/rate-my-post-menu-customize.php:215
+msgid "Text if feedback is empty"
+msgstr "Text, wenn das Feedback leer ist"
+
+#: admin/partials/rate-my-post-menu-about.php:25
+msgid "I hope you will enjoy the plugin"
+msgstr "Ich hoffe, du hast Freude mit dem Plugin"
+
+#: admin/partials/rate-my-post-menu-about.php:22
+msgid "it will take you 5 minutes (less if you are already registered on WordPress) and it means a lot to me since I made this plugin completely for free. If you encounter any problems with the plugin or you miss some features, let me know in the"
+msgstr "es dauert nur 5 Minuten (sogar noch weniger, wenn du schon bei WordPress registriert bist). Die Bewertung bedeutet mir sehr viel, weil ich das Plugin komplett kostenlos für dich entwickle. Wenn du mit dem Plugin Probleme hast oder wenn dir Funktionen fehlen, lass es mich einfach wissen"
+
+#: admin/partials/rate-my-post-menu-about.php:22
+msgid "Thank you for installing Rate my Post plugin. If you like the plugin please rate it"
+msgstr "Danke, dass du Rate My Post installiert hast. Bitte bewerte das Plugin, wenn es dir gefällt"
+
+#: admin/partials/rate-my-post-meta-box.php:33
+msgid "Tip: Average rating value should be between 1 and 5. To reset the rating insert 0 in both fields and click Update Rating!"
+msgstr "Tipp: Die Durchschnittsbewertung sollte zwischen 1 und 5 liegen. Um die Bewertungen zurückzusetzen, trage 0 in beide Felder ein und klicke auf „Bewertung aktualisieren“!"
+
+#: admin/class-rate-my-post-admin.php:149
+msgid "Settings Reset Done"
+msgstr "Einstellungen erfolgreich zurückgesetzt"
+
+#: admin/partials/rate-my-post-menu-customize.php:17
+msgid "Customize Plugin"
+msgstr "Plugin anpassen"
+
+#: admin/partials/rate-my-post-menu-customize.php:36
+#: admin/partials/rate-my-post-menu-customize.php:155
+#: admin/partials/rate-my-post-menu-customize.php:180
+msgid "Subtitle"
+msgstr "Untertitel"
+
+#: admin/partials/rate-my-post-menu-customize.php:64
+msgid "Text if somebody tries to vote twice"
+msgstr "Text, wenn jemand zweimal bewerten möchte"
+
+#: admin/partials/rate-my-post-menu-customize.php:82
+msgid "Text after vote"
+msgstr "Text nach der Bewertung"
+
+#: admin/partials/rate-my-post-menu-customize.php:90
+msgid "One star hover text"
+msgstr "Ein-Stern-Erklärungstext"
+
+#: admin/partials/rate-my-post-menu-customize.php:99
+msgid "Two stars hover text"
+msgstr "Zwei-Sterne-Erklärungstext"
+
+#: admin/partials/rate-my-post-menu-customize.php:105
+msgid "Three stars hover text"
+msgstr "Drei-Sterne-Erklärungstext"
+
+#: admin/partials/rate-my-post-menu-customize.php:113
+msgid "Four stars hover text"
+msgstr "Vier-Sterne-Erklärungstext"
+
+#: admin/partials/rate-my-post-menu-customize.php:119
+msgid "Five stars hover text"
+msgstr "Fünf-Sterne-Erklärungstext"
+
+#: admin/partials/rate-my-post-menu-customize.php:189
+msgid "Text"
+msgstr "Text"
+
+#: admin/partials/rate-my-post-menu-customize.php:197
+msgid "Text after sending feedback"
+msgstr "Text nach dem Absenden des Feedbacks"
+
+#: admin/partials/rate-my-post-menu-customize.php:234
+msgid "Title Font Size"
+msgstr "Titel Schriftgröße"
+
+#: admin/partials/rate-my-post-menu-customize.php:242
+msgid "Subtitle Font Size"
+msgstr "Untertitel Schriftgröße"
+
+#: admin/partials/rate-my-post-menu-customize.php:250
+msgid "Text Font Size"
+msgstr "Text Schriftgröße"
+
+#: admin/partials/rate-my-post-menu-customize.php:381
+msgid "Save Customization Options"
+msgstr "Änderungen Speichern"
+
+#: admin/partials/rate-my-post-menu-customize.php:384
+msgid "Reset Customization Options"
+msgstr "Änderungen zurücksetzen"
+
+#: admin/partials/rate-my-post-menu-master.php:22
+msgid "Customize"
+msgstr "Anpassen"
+
+#: admin/partials/rate-my-post-menu-options.php:102
+#: admin/partials/rate-my-post-menu-options.php:192
+msgid "Read more"
+msgstr "Mehr lesen"
+
+#: admin/partials/rate-my-post-menu-options.php:347
+msgid "Reset Settings"
+msgstr "Einstellungen zurücksetzen"
+
+#: admin/partials/rate-my-post-meta-box.php:31
+msgid "Update Rating"
+msgstr "Bewertung aktualisieren"
+
+#: admin/partials/rate-my-post-menu-stats.php:17
+msgid "Displaying only rated posts and pages! To see feedback or change ratings click on a post/page title below and find the Rate my Post meta box at the bottom."
+msgstr "Es werden nur Seiten und Beiträge angezeigt, die Bewertungen erhalten haben! Um Feedback zu sehen oder um die Bewertungen anzupassen, klicke auf den Seiten- bzw. Beitragsnamen. Ganz unten findest du die Rate-my-Post-Metabox."
+
+#: admin/partials/rate-my-post-menu-customize.php:207
+msgid "Feedback button text"
+msgstr "Feedback-Button-Text"
+
+#: admin/partials/rate-my-post-menu-customize.php:141
+msgid "Strings - Social Widget"
+msgstr "Zeichenfolgen im Social-Widget"
+
+#: admin/partials/rate-my-post-menu-customize.php:167
+msgid "Strings - Feedback Widget"
+msgstr "Zeichenfolgen im Feedback-Widget"
+
+#: admin/partials/rate-my-post-menu-customize.php:21
+msgid "Strings - Rating Widget"
+msgstr "Zeichenfolgen im Bewertungs-Widget"
+
+#: admin/class-rate-my-post-admin.php:194
+msgid "Customization Options Reset Done"
+msgstr "Anpassungen erfolgreich zurückgesetzt"
+
+#: admin/class-rate-my-post-admin.php:54
+msgid "Are your sure you want to reset the customization options?"
+msgstr "Sind du sicher, dass du die Anpassungen zurücksetzen willst?"
+
+#: admin/class-rate-my-post-admin.php:53
+msgid "Are your sure you want to reset the settings?"
+msgstr "Bist du sicher, dass du die Einstellungen zurücksetzen willst?"
+
+#: admin/partials/rate-my-post-menu-customize.php:72
+msgid "Result text if no votes"
+msgstr "Text, wenn keine Bewertungen vorhanden sind"
+
+#: admin/partials/rate-my-post-menu-options.php:261
+msgid "If you do not want an icon to be displayed, leave the field below empty!"
+msgstr "Wenn ein Icon nicht angezeigt werden soll, lasse das jeweilige Feld einfach leer!"
+
+#. Author of the plugin
+msgid "Blaz K."
+msgstr "Blaz K."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/rate-my-post/"
+msgstr "https://wordpress.org/plugins/rate-my-post/"
+
+#: admin/partials/rate-my-post-menu-customize.php:28
+#: admin/partials/rate-my-post-menu-customize.php:147
+#: admin/partials/rate-my-post-menu-customize.php:173
+#: admin/partials/rate-my-post-menu-stats.php:21
+msgid "Title"
+msgstr "Titel"
+
+#: admin/partials/rate-my-post-menu-options.php:346
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: admin/partials/rate-my-post-menu-options.php:287
+msgid "Your Flickr Page URL"
+msgstr "Deine Flickr URL"
+
+#: admin/partials/rate-my-post-menu-options.php:281
+msgid "Your Youtube Page URL"
+msgstr "Deine Youtube URL"
+
+#: admin/partials/rate-my-post-menu-options.php:273
+msgid "Your Pinterest Page URL"
+msgstr "Deine Pinterest URL"
+
+#: admin/partials/rate-my-post-menu-options.php:267
+msgid "Your Facebook Page URL"
+msgstr "Deine Facebook URL"
+
+#: admin/partials/rate-my-post-menu-master.php:25
+msgid "Stats"
+msgstr "Statistiken"
+
+#: admin/partials/rate-my-post-menu-master.php:19
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/partials/rate-my-post-meta-box.php:36
+#: admin/partials/rate-my-post-menu-stats.php:24
+msgid "Feedback"
+msgstr "Feedback"
+
+#: admin/partials/rate-my-post-meta-box.php:23
+msgid "Sum of Ratings"
+msgstr "Summe der Bewertungen"
+
+#: admin/partials/rate-my-post-meta-box.php:18
+msgid "Number of Votes"
+msgstr "Anzahl der Bewertungen"
+
+#: public/inc/class-rate-my-post-public-helper.php:189
+msgid "Tell us how we can improve this post?"
+msgstr "Wie können wir diesen Beitrag verbessern?"
+
+#: public/inc/class-rate-my-post-public-helper.php:188
+msgid "Let us improve this post!"
+msgstr "Lasse uns diesen Beitrag verbessern!"
+
+#: public/inc/class-rate-my-post-public-helper.php:175
+msgid "Average rating"
+msgstr "Durchschnittliche Bewertung"
+
+#: admin/class-rate-my-post-admin.php:135
+#: admin/class-rate-my-post-admin.php:151
+#: admin/class-rate-my-post-admin.php:180
+#: admin/class-rate-my-post-admin.php:196
+msgid "You do not have permission to update settings for this plugin!"
+msgstr "Du hast keine Berechtigung um die Einstellungen dieses PlugIns anzupassen!"
+
+#: admin/class-rate-my-post-admin.php:133
+#: admin/class-rate-my-post-admin.php:178
+msgid "Settings Saved"
+msgstr "Einstellungen gespeichert"
+
+#: admin/class-rate-my-post-admin.php:52
+msgid "Saving"
+msgstr "Speichern"
+
+#: public/inc/class-rate-my-post-public-helper.php:177
+msgid "You already voted! This vote will not be counted!"
+msgstr "Du hast diesen Beitrag bereits bewertet! Diese Bewertung wird nicht gezählt!"
+
+#: public/inc/class-rate-my-post-public-helper.php:178
+msgid "No votes so far! Be the first to rate this post."
+msgstr "Bisher keine Bewertungen! Sei der Erste, der diesen Beitrag bewertet."
+
+#: admin/class-rate-my-post-admin.php:89
+msgid "Number of votes and sum of ratings successfully updated!"
+msgstr "Anzahl der Stimmen und Summe der Bewertungen erfolgreich aktualisiert!"
+
+#: admin/inc/class-rate-my-post-admin-helper.php:34
+msgid "No feedback so far!"
+msgstr "Noch kein Feedback erhalten!"
+
+#: admin/partials/rate-my-post-menu-stats.php:22
+msgid "Votes"
+msgstr "Bewertungen"
+
+#: admin/partials/rate-my-post-meta-box.php:28
+#: admin/partials/rate-my-post-menu-stats.php:23
+msgid "Average Rating"
+msgstr "Durchschnittsbewertung"
+
+#: public/inc/class-rate-my-post-public-helper.php:173
+msgid "How useful was this post?"
+msgstr "Wie hilfreich war dieser Beitrag?"
+
+#: public/inc/class-rate-my-post-public-helper.php:174
+msgid "Click on a star to rate it!"
+msgstr "Klicken Sie auf einen Stern für Ihre Bewertung!"
+
+#: public/inc/class-rate-my-post-public-helper.php:179
+msgid "Thank you for rating this post!"
+msgstr "Danke für die Bewertung!"
+
+#: public/inc/class-rate-my-post-public-helper.php:180
+msgid "Not at all useful"
+msgstr "Überhaupt nicht hilfreich"
+
+#: public/inc/class-rate-my-post-public-helper.php:181
+msgid "Somewhat useful"
+msgstr "Etwas hilfreich"
+
+#: public/inc/class-rate-my-post-public-helper.php:182
+msgid "Useful"
+msgstr "Hilfreich"
+
+#: public/inc/class-rate-my-post-public-helper.php:183
+msgid "Fairly useful"
+msgstr "Ziemlich hilfreich"
+
+#: public/inc/class-rate-my-post-public-helper.php:184
+msgid "Very useful"
+msgstr "Sehr hilfreich"
+
+#: admin/partials/rate-my-post-menu-stats.php:15
+msgid "Rate my Post Stats"
+msgstr "Rate-my-Post-Statistiken"
+
+#: public/inc/class-rate-my-post-public-helper.php:190
+msgid "Thanks for your feedback!"
+msgstr "Danke für dein Feedback!"
+
+#: public/inc/class-rate-my-post-public-helper.php:191
+msgid "Submit Feedback"
+msgstr "Feedback Absenden"
+
+#: public/inc/class-rate-my-post-public-helper.php:187
+msgid "We are sorry that this post was not useful for you!"
+msgstr "Es tut uns leid, dass der Beitrag für dich nicht hilfreich war!"
+
+#: admin/class-rate-my-post-admin.php:91
+msgid "Update failed - please try again!"
+msgstr "Update fehlgeschlagen - bitte erneut versuchen!"
+
+#. Description of the plugin
+msgid "Allows visitors to rate your posts/pages and send you private feedback about each post or page."
+msgstr "Erlaube Besuchern, Posts und Seiten zu bewerten und privates Feedback zu jedem Post oder jeder Seite zu geben."
+
+#: public/inc/class-rate-my-post-public-helper.php:186
+msgid "Follow us on social media!"
+msgstr "Folge uns in sozialen Netzwerken!"

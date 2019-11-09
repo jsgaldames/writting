@@ -1,0 +1,1145 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Rate my Post - WP Post Rating\n"
+"POT-Creation-Date: 2019-06-21 13:37+0200\n"
+"PO-Revision-Date: 2019-06-21 13:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rate-my-post.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-rate-my-post-admin.php:56
+msgid "Saving"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:57
+msgid "Are your sure you want to reset the settings?"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:58
+msgid "Are your sure you want to reset the customization options?"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:94
+msgid "Number of votes and sum of ratings successfully updated!"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:96
+msgid "Update failed - please try again!"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:99
+msgid "You do not have permission to manipulate ratings!"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:113
+msgid "Feedback successfully deleted!"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:115
+#: admin/class-rate-my-post-admin.php:141
+msgid "You do not have permission to delete feedback!"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:226
+#: admin/class-rate-my-post-admin.php:284
+msgid "Settings Saved"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:228
+#: admin/class-rate-my-post-admin.php:286
+#: admin/class-rate-my-post-admin.php:344
+msgid "Settings Partially Saved. Unable to save: "
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:228
+#: admin/class-rate-my-post-admin.php:286
+#: admin/class-rate-my-post-admin.php:344
+msgid "Try clearing all caches, especially your browser cache!"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:231
+#: admin/class-rate-my-post-admin.php:247
+#: admin/class-rate-my-post-admin.php:289
+#: admin/class-rate-my-post-admin.php:305
+msgid "You do not have permission to update settings for this plugin!"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:245
+msgid "Settings Reset Done"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:303
+msgid "Customization Options Reset Done"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:342
+msgid "Security Settings Saved"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:347
+msgid "You do not have permission to update security settings for this plugin!"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:393
+msgid "No rating plugin found! Migration is not possible!"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:402
+msgid "Migration successful! Number of posts affected"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:404
+msgid "No existing ratings found! Nothing to migrate!"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:492
+#: admin/class-rate-my-post-admin.php:502
+msgid "Tracking Disabled"
+msgstr ""
+
+#: admin/class-rate-my-post-admin.php:497
+msgid "Not logged in"
+msgstr ""
+
+#: admin/partials/rate-my-post-analytics.php:25
+msgid "Rate my Post Analytics"
+msgstr ""
+
+#: admin/partials/rate-my-post-analytics.php:28
+msgid "Here you can see the details about the last 100 votes on your website."
+msgstr ""
+
+#: admin/partials/rate-my-post-analytics.php:34
+msgid "ID"
+msgstr ""
+
+#: admin/partials/rate-my-post-analytics.php:35
+msgid "Time"
+msgstr ""
+
+#: admin/partials/rate-my-post-analytics.php:36
+msgid "IP"
+msgstr ""
+
+#: admin/partials/rate-my-post-analytics.php:37
+msgid "User"
+msgstr ""
+
+#: admin/partials/rate-my-post-analytics.php:38
+msgid "Post"
+msgstr ""
+
+#: admin/partials/rate-my-post-analytics.php:39
+msgid "Duration"
+msgstr ""
+
+#: admin/partials/rate-my-post-analytics.php:40
+#: admin/partials/rate-my-post-menu-stats.php:30
+#: admin/partials/rate-my-post-meta-box.php:41
+msgid "Average Rating"
+msgstr ""
+
+#: admin/partials/rate-my-post-analytics.php:41
+msgid "Total Votes"
+msgstr ""
+
+#: admin/partials/rate-my-post-analytics.php:42
+msgid "Rated"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-about.php:21
+msgid "About Plugin"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-about.php:23
+msgid "Hi there"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-about.php:26
+msgid ""
+"Thank you for installing Rate my Post plugin. If you like the plugin please "
+"rate it"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-about.php:26
+msgid "here"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-about.php:26
+msgid ""
+"it will take you 5 minutes (less if you are already registered on WordPress) "
+"and it means a lot to me since I made this plugin completely for free. If "
+"you encounter any problems with the plugin or you miss some features, let me "
+"know in the"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-about.php:29
+msgid "I hope you will enjoy the plugin"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-about.php:32
+msgid "Best regards"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-alerts.php:27
+msgid ""
+"You need to be logged in as administrator to save settings for Rate my Post "
+"plugin"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-alerts.php:35
+msgid ""
+"Rate my Post requires WordPress version 4.7.0 or higher. Please update your "
+"WordPress"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:23
+msgid "Customize Plugin"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:25
+msgid ""
+"Tip: First enable delete cookie on page load in settings. Add shortcode "
+"[ratemypost] to one of your posts and open it in the preview mode. Then "
+"custmize this plugin to your liking - after saving settings reload the post "
+"in the preview mode to see the changes you have made. After testing you can "
+"reset the ratings in meta box in edit post."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:27
+msgid "Strings - Rating Widget"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:34
+#: admin/partials/rate-my-post-menu-customize.php:161
+#: admin/partials/rate-my-post-menu-customize.php:187
+#: admin/partials/rate-my-post-menu-stats.php:28
+msgid "Title"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:42
+#: admin/partials/rate-my-post-menu-customize.php:169
+#: admin/partials/rate-my-post-menu-customize.php:194
+msgid "Subtitle"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:52
+msgid "Result text - average rating"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:60
+msgid "Result text - vote count"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:70
+msgid "Text if somebody tries to vote twice"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:78
+msgid "Result text if no votes"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:88
+msgid "Text after vote"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:96
+msgid "One star hover text"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:105
+msgid "Two stars hover text"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:111
+msgid "Three stars hover text"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:119
+msgid "Four stars hover text"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:125
+msgid "Five stars hover text"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:133
+msgid "Submit rating button text"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:141
+msgid "Custom results text"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:144
+msgid ""
+"Replace the generic vote count and average rating text under the stars. Use "
+"{{votecount}} for number of votes and {{avgrating}} for average rating. "
+"Leave empty for default. This feature does not work in the multilingual "
+"website compatibility mode."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:155
+msgid "Strings - Social Widget"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:181
+msgid "Strings - Feedback Widget"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:203
+msgid "Text"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:211
+msgid "Text after sending feedback"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:221
+msgid "Feedback button text"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:229
+msgid "Text if feedback is empty"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:240
+msgid "Leave empty for default style."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:242
+msgid "Style - Global"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:248
+msgid "Title Font Size"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:256
+msgid "Subtitle Font Size"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:264
+msgid "Text Font Size"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:274
+msgid "Title Bottom Margin"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:282
+msgid "Subtitle Bottom Margin"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:290
+msgid "Border Width"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:300
+msgid "Border Radius"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:308
+msgid "Border Color"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:316
+msgid "Background Color"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:323
+msgid "Style - Rating Widget"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:325
+msgid "Insert hexadecimal colors - for example, #ff0000 for red. You can use"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:332
+msgid "Icon Size"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:340
+msgid "Results Color"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:348
+msgid "Hover Color"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:358
+msgid "Rated Color"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:366
+msgid "Highlight Color"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:374
+msgid "Icon Margin"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:381
+msgid "Style - Social Widget"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:386
+msgid "Social Icon Size"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:395
+msgid "Save Customization Options"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:398
+msgid "Reset Customization Options"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-customize.php:402
+msgid ""
+"Note: If you are using a cache plugin, clear page cache after saving "
+"customization options."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-master.php:25
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-master.php:28
+msgid "Customize"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-master.php:31
+msgid "Security"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-master.php:34
+#: admin/partials/rate-my-post-menu-migration.php:21
+msgid "Migration Tools"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-master.php:37
+msgid "About"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-migration.php:23
+msgid ""
+"The plugin allows you to easily migrate ratings from the following plugins: "
+"kk Star Ratings, WP-PostRatings and Yasr. More rating plugins will be "
+"supported in the future. Here you can submit requests"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-migration.php:26
+msgid "Detected Rating Plugin"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-migration.php:31
+msgid "No rating plugin found. Migration is not possible."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-migration.php:38
+msgid ""
+"Note: If you already used Rate my Post plugin, the Rate my Post ratings will "
+"be overwritten during the migration!"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-migration.php:41
+msgid "Start Migration"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:24
+msgid "Rating Widget Settings"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:27
+msgid "Type of rating widget"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:37
+msgid "Rate my Post supports the following icons: Stars, thumbs and hearts"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:42
+msgid "Rating widget alignment"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:50
+msgid "You can align the widget left, right or center"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:59
+msgid "Add rating widget to all posts"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:62
+msgid ""
+"Automatically adds rating widget to all your posts, after the content. You "
+"can also manually add the rating widget with shortcode: [ratemypost]"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:70
+msgid "Add rating widget to all pages"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:73
+msgid ""
+"Automatically adds rating widget to all your pages, after the content. You "
+"can also manually add the rating widget with shortcode: [ratemypost]"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:83
+msgid "Add result widget to all posts"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:86
+msgid ""
+"Automatically adds result widget to all your posts, before the content. "
+"Results widget will be displayed only if post has already been rated. You "
+"can also manually add the result widget with shortcode: [ratemypost-result]"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:94
+msgid "Add result widget to all pages"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:97
+msgid ""
+"Automatically adds result widget to all your pages, before the content. "
+"Results widget will be displayed only if page has already been rated. You "
+"can also manually add the result widget with shortcode: [ratemypost-result]"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:107
+msgid "Send me email whenever post gets rated"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:110
+msgid "You will get an email whenever somebody rates your post or page"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:118
+msgid "Enable rich snippets"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:121
+msgid ""
+"Includes structured data for stars to be displayed in search engine results"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:123
+#: admin/partials/rate-my-post-menu-options.php:237
+msgid "Read more"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:127
+msgid ""
+"This feature adds aggregate rating for creative work structured data to your "
+"posts/pages. Structured data will be added only if the post has been rated "
+"at least once. You can test this feature with Google Structured Data testing "
+"tool. "
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:137
+msgid "Color the stars in rating widget"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:140
+msgid ""
+"For example, if a post has an average rating of 4, 4 stars in rating widget "
+"will be colored"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:148
+msgid "Enable half stars"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:151
+msgid ""
+"For example, if a post has an average rating of 4.5, 4.5 stars in rating "
+"widget and/or results widget will be colored."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:161
+msgid "Show star hover texts"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:164
+msgid ""
+"When user hovers over a star, a descriptive rating will be showed under the "
+"stars"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:172
+msgid "Prevent accidental votes"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:175
+msgid "On touch devices vote has to be confirmed by clicking the rate button"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:185
+msgid "Do not show average rating"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:188
+msgid ""
+"Removes average rating and vote count information under the rating widget"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:196
+msgid "Do not recalculate after vote"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:199
+msgid ""
+"Disable recalculating average rating and vote count for visitors after vote"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:209
+msgid "Google Analytics event tracking"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:212
+msgid ""
+"Track votes with Google Analytics - see supported plugins in the plugin "
+"description."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:220
+msgid "Delete cookie on page load"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:223
+msgid "Enable only while you are cutomizing the plugin"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:231
+msgid "Exclude rating and result widget from"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:235
+msgid "Insert comma separated post/page IDs"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:241
+msgid ""
+"Visit posts/pages menu in your admin dashboard and click on the page/post "
+"that you need an ID for. Then check the URL and you should see something "
+"like \"www.expample.com/wp-admin/post.php?post=61&action=edit\". The ID is "
+"the number in the URL. In this case it is 61."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:246
+msgid ""
+"If post or page is rated X/5 stars or less, consider rating negative. X="
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:250
+msgid "Define what is a negative rating to use the feedback and social widget."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:257
+msgid "Feedback Widget Settings"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:264
+msgid "Show feedback widget if rating is negative"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:267
+msgid ""
+"Encourage users to help you improve your posts. Only you can see the "
+"feedback. The feedback widget will be shown in case of a negative rating"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:275
+msgid "Send me email whenever feedback is left"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:278
+msgid "You will get an email whenever somebody leaves you private feedback"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:288
+msgid "Count negative ratings only if feedback is left"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:291
+msgid ""
+"If enabled negative ratings will be counted only if user leaves a feedback."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:301
+msgid "Social Widget Settings"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:308
+msgid "Show social widget if rating is positive"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:311
+msgid ""
+"Encourage users to follow you on social media. Insert links to your social "
+"media profiles below. The social widget will be shown in case of a positive "
+"rating"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:319
+msgid "Show social share links"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:322
+msgid ""
+"Enable this option if you want to show social share links instead of social "
+"follow links. Supported networks: Facebook, Pinterest, Twitter and Reddit"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:330
+msgid ""
+"If you do not want an icon to be displayed, leave the field below empty!"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:336
+msgid "Your Facebook Page URL"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:342
+msgid "Your Pinterest Page URL"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:350
+msgid "Your Youtube Page URL"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:356
+msgid "Your Flickr Page URL"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:364
+msgid "Your Instagram Page URL"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:370
+msgid "Your Twitter Page URL"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:378
+msgid "Your Linkedin Page URL"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:386
+msgid "Custom Post Types"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:389
+msgid "Add rating widget automatically to custom post types"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:393
+#: admin/partials/rate-my-post-menu-options.php:407
+msgid "Insert comma separated post types. Registered custom post types"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:403
+msgid "Add result widget automatically to custom post types"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:417
+msgid "Archive Pages"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:424
+msgid "Show ratings on archive pages"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:427
+msgid ""
+"Ratings will be shown on archive pages (categories, tags, author pages etc.) "
+"next to the title"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:435
+msgid "Advanced Settings"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:442
+msgid "Remove headings in rating widget"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:445
+msgid ""
+"Replaces headings in rating widget with paragraphs. A useful feature if you "
+"are using a table of contents plugin. You can style titles in the customize "
+"section or with custom CSS (.rmp-main-title)"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:453
+msgid "Multilingual website compatibility mode"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:456
+msgid ""
+"If your website is available in multiple languages enable this option. You "
+"will not be able to customize strings in the customize section. Instead "
+"customize strings through your plugin for translations"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:466
+msgid "Do not load FontAwesome"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:469
+msgid ""
+"Plugin uses FontAwesome 4 to display icons (stars, thumbs etc.). If your "
+"theme or plugins load FontAwesome 4 enable this feature for better "
+"performance. Do not enable if you do not know what you are doing"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:477
+msgid "Load Modernizr"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:480
+msgid ""
+"Modernizr is used for better compatibility with very old browsers. If your "
+"theme or plugins load Modernizr, this feature in rare cases causes "
+"conflicts. It is recommended that you test your website after enabling"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:490
+msgid "Delete all plugin data on uninstall"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:493
+msgid ""
+"If enabled all plugin data (settings, customization, vote count, rating and "
+"feedback) will be deleted when you uninstall the plugin"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:501
+msgid "AMP compatibility mode (BETA)"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:504
+msgid ""
+"Adds a minimalistic rating and result widget on AMP pages. This is a beta "
+"feature - check the"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:506
+msgid "before enabling"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:514
+msgid "Save Settings"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-options.php:515
+msgid "Reset Settings"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:23
+msgid "Security Options"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:24
+msgid "Privileges"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:28
+msgid "Ratings manipulation requires role of"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:36
+msgid ""
+"Select which role is required to manipulate ratings in the backend. Authors "
+"can only manipulate ratings of their own posts."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:42
+msgid "Who can rate posts"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:49
+msgid ""
+"Select who can rate your posts. By default every visitor can rate posts."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:55
+msgid "Tracking"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:59
+msgid "Track IP addresses"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:66
+msgid ""
+"Track IP addresses of users who rate your posts or leave you feedback! This "
+"feature is NOT COMPLIANT WITH GDPR!"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:72
+msgid "Track users"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:79
+msgid ""
+"This feature enables you to see who rated your posts and left you feedback!"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:85
+msgid "Spam Protection - Google reCAPTCHA v3"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:87
+msgid ""
+"The plugin supports Google reCAPTCHA v3 which verifies if an interaction is "
+"legitimate without any user interaction. You will need reCAPTCHA v3 site key "
+"and secret key to use this option. The service is free of charge. You can "
+"get the keys here"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:87
+msgid ""
+"ReCaptcha library adds a badge to your website with terms of use and privacy "
+"policy. You can hide it with custom css: .grecaptcha-badge {display: none;} "
+"However, note that you have to include link to terms of use and privacy "
+"policy according to reCAPTCHA v3 Terms of Use."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:92
+msgid "reCAPTCHA v3 Site Key"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:96
+msgid "Insert Google reCAPTCHA v3 site key"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:101
+msgid "reCAPTCHA v3 Secret Key"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:105
+msgid "Insert Google reCAPTCHA v3 secret key"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:114
+msgid "Enable reCAPTCHA v3"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:117
+msgid ""
+"Automatically verifies if interactions are legitimate. Unlike the reCAPTCHA "
+"v2, it does not require any interaction from the visitor"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-security.php:124
+msgid "Save Security Options"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-stats.php:20
+msgid "Rate my Post Stats"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-stats.php:22
+msgid ""
+"Displaying only rated posts and pages! To see feedback or change ratings "
+"click on a post/page title below and find the Rate my Post meta box at the "
+"bottom."
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-stats.php:29
+msgid "Votes"
+msgstr ""
+
+#: admin/partials/rate-my-post-menu-stats.php:31
+#: admin/partials/rate-my-post-meta-box.php:58
+msgid "Feedback"
+msgstr ""
+
+#: admin/partials/rate-my-post-meta-box.php:27
+msgid "Number of Votes"
+msgstr ""
+
+#: admin/partials/rate-my-post-meta-box.php:34
+msgid "Sum of Ratings"
+msgstr ""
+
+#: admin/partials/rate-my-post-meta-box.php:45
+msgid "Update Rating"
+msgstr ""
+
+#: admin/partials/rate-my-post-meta-box.php:47
+msgid "Delete Feedback"
+msgstr ""
+
+#: admin/partials/rate-my-post-meta-box.php:52
+msgid ""
+"Tip: Average rating value should be between 1 and 5. To reset the rating "
+"insert 0 in both fields and click Update Rating!"
+msgstr ""
+
+#: admin/partials/rate-my-post-meta-box.php:83
+msgid "Delete"
+msgstr ""
+
+#: admin/partials/rate-my-post-meta-box.php:88
+msgid "No feedback so far!"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:402
+msgid "How useful was this post?"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:403
+msgid "Click on a star to rate it!"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:404
+msgid "Average rating"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:405
+msgid "Vote count:"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:406
+msgid "You already voted! This vote will not be counted!"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:407
+msgid "No votes so far! Be the first to rate this post."
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:408
+msgid "Thank you for rating this post!"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:409
+msgid "Not at all useful"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:410
+msgid "Somewhat useful"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:411
+msgid "Useful"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:412
+msgid "Fairly useful"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:413
+msgid "Very useful"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:414
+msgid "As you found this post useful..."
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:415
+msgid "Follow us on social media!"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:416
+msgid "We are sorry that this post was not useful for you!"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:417
+msgid "Let us improve this post!"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:418
+msgid "Tell us how we can improve this post?"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:419
+msgid "Thanks for your feedback!"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:420
+msgid "Submit Feedback"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:421
+msgid "Please insert your feedback in the box above!"
+msgstr ""
+
+#: public/inc/class-rate-my-post-public-helper.php:422
+msgid "Submit Rating"
+msgstr ""
+
+#: public/partials/rmp-star-rating-widget-amp.php:104
+msgid "Processing your rating..."
+msgstr ""
+
+#: public/partials/rmp-star-rating-widget-amp.php:121
+msgid "There was an error rating this post!"
+msgstr ""
+
+#: widgets/rate-my-post-top-rated-widget.php:19
+msgid "Displays top rated posts from Rate my Post plugin."
+msgstr ""
+
+#: widgets/rate-my-post-top-rated-widget.php:95
+msgid "Title:"
+msgstr ""
+
+#: widgets/rate-my-post-top-rated-widget.php:100
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/rate-my-post-top-rated-widget.php:105
+msgid "Minimum average rating required:"
+msgstr ""
+
+#: widgets/rate-my-post-top-rated-widget.php:110
+msgid "Minimum votes required:"
+msgstr ""
+
+#: widgets/rate-my-post-top-rated-widget.php:116
+msgid "Show featured image"
+msgstr ""
+
+#: widgets/rate-my-post-top-rated-widget.php:121
+msgid "Show star rating"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Rate my Post - WP Post Rating"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/rate-my-post/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allows visitors to rate your posts/pages and send you private feedback about "
+"each post or page."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Blaz K."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/blazk"
+msgstr ""

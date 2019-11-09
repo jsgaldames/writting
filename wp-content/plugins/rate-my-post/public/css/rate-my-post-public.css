@@ -1,0 +1,428 @@
+/* Fonts */
+@font-face {
+  font-family: 'ratemypost';
+  src:  url('fonts/ratemypost.eot?9e18pt');
+  src:  url('fonts/ratemypost.eot?9e18pt#iefix') format('embedded-opentype'),
+    url('fonts/ratemypost.ttf?9e18pt') format('truetype'),
+    url('fonts/ratemypost.woff?9e18pt') format('woff'),
+    url('fonts/ratemypost.svg?9e18pt#ratemypost') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="rmp-icon-"], [class*=" rmp-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ratemypost' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rmp-icon-heart:before {
+  content: "\f004";
+}
+.rmp-icon-star:before {
+  content: "\f005";
+}
+.rmp-icon-trophy:before {
+  content: "\f091";
+}
+.rmp-icon-twitter:before {
+  content: "\f099";
+}
+.rmp-icon-facebook:before {
+  content: "\f09a";
+}
+.rmp-icon-facebook-f:before {
+  content: "\f09a";
+}
+.rmp-icon-pinterest:before {
+  content: "\f0d2";
+}
+.rmp-icon-linkedin:before {
+  content: "\f0e1";
+}
+.rmp-icon-smile-o:before {
+  content: "\f118";
+}
+.rmp-icon-thumbs-up:before {
+  content: "\f164";
+}
+.rmp-icon-youtube-square:before {
+  content: "\f166";
+}
+.rmp-icon-instagram:before {
+  content: "\f16d";
+}
+.rmp-icon-flickr:before {
+  content: "\f16e";
+}
+.rmp-icon-reddit:before {
+  content: "\f1a1";
+}
+
+/* Main Container */
+.rmp-main {
+  text-align: center;
+}
+
+.rmp-main-title {
+  margin: 5px;
+}
+
+.rmp-main-subtitle {
+  margin: 5px;
+}
+
+ul#rmp-stars {
+  margin: 10px;
+}
+
+ul#rmp-stars li {
+  margin: 0;
+  padding: 0;
+}
+
+.feedback-subview label {
+  font-weight: normal;
+}
+
+/* Rating Widget */
+.rmp-main #voting-results, .rmp-main #thank-you-msg, .rmp-main #descriptive-rating {
+  margin-bottom: 10px;
+}
+
+#descriptive-rating {
+  display: none;
+}
+
+/*Rating stars unordered list*/
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+
+/*Rating stars list item*/
+.rating-stars ul > li.star {
+  display:inline-block;
+  margin-left: 0px;
+}
+
+/*Rating stars - fontawesome icons*/
+.rating-stars ul > li.star > i.rmp-icon {
+  font-size:2.5em;
+  color:#ccc;
+  cursor: pointer;
+}
+
+/* Half Star/Icon  */
+.half-icon-highlight i {
+  background: linear-gradient(to right, #ffe699 50%,#ccc 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Hover style of the rating stars - media rule of android and iOS */
+@media (hover: hover) {
+  .rating-stars ul > li.star.hover > i.rmp-icon {
+    color:#FFCC36;
+  }
+}
+
+/*Results in rating widget - color the stars with average rating*/
+.rating-stars ul > li.star.widget-stars-highlight > i.rmp-icon {
+  color:#ffe699;
+}
+
+/* Voted color of stars - on star click */
+.rating-stars ul > li.star.selected > i.rmp-icon {
+  color:#FF912C;
+}
+
+/*hover color overrides average rating color - media rule of android and iOS */
+@media (hover: hover) {
+  .rating-stars ul > li.star.widget-stars-highlight.hover > i.rmp-icon {
+    color:#FFCC36;
+  }
+}
+
+/*hover color overrides half stars/icons as a part of average rating - media rule of android and iOS */
+@media (hover: hover) {
+  .rating-stars ul > li.star.half-icon-highlight.hover > i.rmp-icon {
+    background: #FFCC36;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/*voted color overrides average rating color */
+.rating-stars ul > li.star.widget-stars-highlight.selected > i.rmp-icon {
+  color:#FF912C;
+}
+
+/*voted color overrides half stars/icons as a part of average rating  */
+.rating-stars ul > li.star.half-icon-highlight.selected > i.rmp-icon {
+  background: #FF912C;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#vote-alert, #feedback-alert {
+  color: red;
+}
+
+#no-vote {
+  display: none;
+}
+
+/*Submit rating button for touch devices*/
+#prevent-accidental-button {
+  background-color: #f3b90f;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+/*Social Widget*/
+
+.rmp-social-view {
+  display: none;
+}
+
+.rmp-social-view .social-icons .rmp-social-icon {
+   padding: 20px;
+   font-size: 30px;
+   width: 70px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+   border-radius: 50%;
+   -webkit-transition-property: none;
+   -moz-transition-property: none;
+   -o-transition-property: none;
+   transition-property: none;
+   -webkit-box-shadow: none;
+	 -moz-box-shadow: none;
+	 box-shadow: none;
+   font-family: ratemypost;
+   display: inline-block;
+}
+
+.social-icons .rmp-social-icon:hover {
+    -webkit-filter: contrast(140%); /* Chrome, Safari, Opera */
+    filter: contrast(140%);
+    color: white;
+    -webkit-transition-property: none;
+    -moz-transition-property: none;
+    -o-transition-property: none;
+    transition-property: none;
+    -webkit-box-shadow: none;
+	  -moz-box-shadow: none;
+	  box-shadow: none;
+}
+
+.rmp-icon-facebook.rmp-social-icon {
+  background: #3B5998;
+  color: white;
+}
+
+.rmp-icon-reddit.rmp-social-icon {
+  background: #ff5700;
+  color: white;
+}
+
+.rmp-icon-youtube-square.rmp-social-icon {
+  background: #bb0000;
+  color: white;
+}
+
+.rmp-icon-pinterest.rmp-social-icon {
+  background: #cb2027;
+  color: white;
+}
+
+.rmp-icon-flickr.rmp-social-icon {
+  background: #f40083;
+  color: white;
+}
+
+.rmp-icon-instagram.rmp-social-icon {
+  background: #125688;
+  color: white;
+}
+
+.rmp-icon-twitter.rmp-social-icon {
+  background: #55ACEE;
+  color: white;
+}
+
+.rmp-icon-linkedin.rmp-social-icon {
+  background: #007bb5;
+  color: white;
+}
+
+.rmp-social-icon:hover {
+    color: white;
+}
+
+.rmp-social-icon:visited {
+    color: white;
+}
+
+.rmp-social-icon:active {
+    color: white;
+}
+
+.rmp-social-icon:focus {
+    color: white;
+}
+
+/*Feedback Widget*/
+
+.rmp-feedback-view {
+  display: none;
+}
+
+.feedback-sent {
+  display: none;
+}
+
+.rmp-feedback-button-div {
+  margin-top: 10px;
+}
+
+.rmp-text-area {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 250px;
+}
+
+/*Results Widget*/
+
+.rmp-results .star-result .rmp-icon-star {
+  color: #ccc;
+  margin-left: -2px;
+}
+
+.rmp-results .star-result .rmp-icon {
+  color: #ccc;
+}
+
+.rmp-results .star-result .rmp-icon.star-highlight {
+  color:#FF912C;
+}
+
+.rmp-results .star-result .rmp-icon.star-half-highlight {
+  background: linear-gradient(to right, #FF912C 50%,#ccc 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rmp-spacer {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.rmp-results .rmp-column {
+    float: left;
+    margin-left: 5px;
+}
+
+.rmp-results .rmp-no-display {
+  display: none;
+}
+
+/* Ratings on category pages*/
+
+.rmp-archive-results {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.rmp-archive-results .rmp-icon {
+  color: #ccc;
+  vertical-align: top;
+}
+
+.rmp-archive-results .rmp-icon-star {
+  margin-left: 0;
+}
+
+.rmp-archive-results span {
+  vertical-align: top;
+  font-size: 12px;
+  display: inline-block;
+  line-height: 100%;
+}
+
+.rmp-archive-results .star-highlight {
+  color: #FF912C;
+}
+
+.rmp-archive-results .star-half-highlight {
+  color: #FF912C;
+  background: -webkit-linear-gradient(left, #FF912C 50%,#ccc 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Top Rated post Widget */
+
+.rmp-tr-posts__star-rating {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.rmp-tr-posts__star-rating .rmp-icon {
+  color: #ccc;
+}
+
+.rmp-tr-posts__star-rating .rmp-icon-star {
+  margin-left: 0;
+}
+
+.rmp-tr-posts__star-rating .star-highlight {
+  color: #FF912C;
+}
+
+.rmp-tr-posts__star-rating .star-half-highlight {
+  color: #FF912C;
+  background: -webkit-linear-gradient(left, #FF912C 50%,#ccc 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rmp-tr-posts__img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.rmp-tr-posts__link {
+  display: block;
+  text-align: center;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}

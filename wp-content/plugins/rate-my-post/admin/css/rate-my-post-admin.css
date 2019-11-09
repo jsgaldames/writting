@@ -1,0 +1,371 @@
+.rmp-rate-line label {
+  display: block;
+  font-weight: bold;
+}
+
+.rmp-rate-bold {
+  font-weight: bold;
+}
+
+.rmp-admin-title {
+  font-size: 20px;
+}
+
+.rmp-tip {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#rmp-feedback-title-meta-box {
+  font-size: 18px;
+}
+
+.rmp-cpt-detect {
+  color: #3399ff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/*Save and reset buttons*/
+
+#update-rating, #rmp-save-settings, #rmp-save-customization, #rmp-save-security, #rmp-migrate {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#update-rating:hover,  #rmp-save-settings:hover, #rmp-save-customization:hover, #rmp-save-security:hover, #rmp-migrate:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#rmp-save-settings, #rmp-save-customization, #rmp-save-security, #rmp-migrate {
+  margin-bottom: 10px;
+}
+
+#update-rating, #rmp-save-customization {
+  margin-top: 10px;
+}
+
+#rmp-reset-settings, #rmp-reset-customization, #delete-feedback {
+  background: #eb092b;
+  background-image: -webkit-linear-gradient(top, #eb092b, #d90f3e);
+  background-image: -moz-linear-gradient(top, #eb092b, #d90f3e);
+  background-image: -ms-linear-gradient(top, #eb092b, #d90f3e);
+  background-image: -o-linear-gradient(top, #eb092b, #d90f3e);
+  background-image: linear-gradient(to bottom, #eb092b, #d90f3e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#rmp-reset-settings:hover, #rmp-reset-customization:hover, #delete-feedback:hover {
+  background: #f6092c;
+  background-image: -webkit-linear-gradient(top, #f6092c, #ee1144);
+  background-image: -moz-linear-gradient(top, #f6092c, #ee1144);
+  background-image: -ms-linear-gradient(top, #f6092c, #ee1144);
+  background-image: -o-linear-gradient(top, #f6092c, #ee1144);
+  background-image: linear-gradient(to bottom, #f6092c, #ee1144);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Options Page*/
+
+.rmp-options {
+  display: block;
+}
+
+.rmp-label {
+  font-size: 16px;
+}
+
+.rmp-clear {
+  clear: both;
+}
+
+.rmp-divider {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.rmp-notice, .rmp-checkbox-notice {
+  font-style: italic;
+  margin-top: 0px;
+  padding-left: 10px;
+}
+
+.rmp-checkbox-notice {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#rmp-notice-hidden, #rmp-checkbox-notice-hidden {
+  max-width: 400px;
+  display: none;
+}
+
+#show-rmp-notice, #show-rmp-checkbox-notice {
+  cursor: pointer;
+}
+
+.rmp-options-first .form-group label {
+  font-size: 16px;
+}
+
+#rmp-options-update-alert {
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+#rmp-customization-update-alert {
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+#rmp-security-update-alert {
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+#rmp-migration-update-alert {
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+.rmp-social-input {
+  width: 400px;
+}
+
+.rmp-customize-input {
+  width: 400px;
+}
+
+.rmp-customize-style-input, .rmp-customize-color-input {
+  width: 80px;
+}
+
+.rmp-table-wrapper {
+  margin-right: 20px;
+}
+
+#rmp-table, #rmp-analytics-table {
+  border-collapse: collapse;
+}
+
+#rmp-table td, #rmp-table th, #rmp-analytics-table td, #rmp-analytics-table th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;;
+}
+
+#rmp-table tr:nth-child(even), #rmp-analytics-table tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+#rmp-table tbody .odd, #rmp-analytics-table tbody .odd {
+  background-color: #eaeaea;
+}
+
+.rmp-tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.rmp-about {
+  max-width: 600px;
+  padding: 1rem;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.rmp-about .rmp-admin-title {
+  margin-top: 0;
+}
+
+
+
+/* Style the buttons inside the tab */
+.rmp-tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    min-width: 120px;
+}
+
+/* Change background color of buttons on hover */
+.rmp-tab button:hover {
+    background-color: #d9d9d9;
+}
+
+div.rmp-tabcontent {
+  display: none;
+}
+
+div.rmp-tabcontent.rmp-tabcontent-current {
+  display: block;
+}
+
+button.rmp-tablinks.rmp-tabcontent-current {
+  background-color: #bfbfbf;
+}
+
+/* Custom checkboxes since 2.0.0 */
+.rmp-option-group input[type="checkbox"] {
+    position: absolute;
+    margin: 8px 0 0 16px;
+}
+.rmp-option-group input[type="checkbox"] + label {
+    position: relative;
+    padding: 0 0 0 50px;
+    line-height: 2.0em;
+}
+.rmp-option-group input[type="checkbox"] + label:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 40px; /* x*5 */
+    height: 24px; /* x*3 */
+    border-radius: 16px; /* x*2 */
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.rmp-option-group input[type="checkbox"] + label:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 0px;
+    width: 24px; /* x*3 */
+    height: 24px; /* x*3 */
+    border-radius: 16px; /* x*2 */
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.rmp-option-group input[type="checkbox"] + label:hover:after {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.rmp-option-group input[type="checkbox"]:checked + label:after {
+    margin-left: 16px;
+}
+.rmp-option-group input[type="checkbox"]:checked + label:before {
+    background: #3399ff;
+}
+
+/* Settings tables */
+#rmp-settings-rating-table tr td, #rmp-settings-feedback-table tr td, #rmp-settings-advanced-table tr td, #rmp-settings-first-social-table tr td, #rmp-settings-archive-table tr td {
+  padding-right: 50px;
+  max-width: 500px;
+}
+
+/* Customization tables */
+#rmp-customize-style-rating-table tr td, #rmp-customize-style-social-table tr td, #rmp-customize-style-global-table tr td{
+  padding-right: 20px;
+}
+
+/* Alerts */
+.rmp-alert {
+  margin: .5rem 1rem .5rem 0;
+  padding: .4rem;
+  background-color: #dc3545;
+  border-radius: 2px;
+}
+
+.rmp-alert__text {
+  color: #ffffff;
+  font-size: .9rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Feedback table  */
+
+.rmp-feedback__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.rmp-feedback__table td, .rmp-feedback__table th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.rmp-feedback__table td:first-child {
+  min-width: 135px;
+}
+
+.rmp-feedback__table__delete--disabled {
+  color: #ec939c;
+}
+
+.rmp-feedback__table__delete--enabled {
+  color: #dc3545;
+}
+
+.rmp-feedback__table__delete:hover {
+  cursor: pointer;
+}
+
+.rmp-about__links {
+  margin: 20px 0 0 0;
+  padding-top: 16px;
+  text-align: center;
+  border-top: 1px solid #a6a6a6;
+}
+
+.rmp-about__links__link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3498db;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 0 5px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.rmp-about__links__link:hover, .rmp-about__links__link:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #2283c3;
+}
+
+.rmp-about__links__text {
+  margin: 0;
+  text-decoration: underline;
+}
